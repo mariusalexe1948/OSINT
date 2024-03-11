@@ -72,7 +72,7 @@
 	
 function toggleDropdown(contentId) {
     var dropdown = document.getElementById(contentId);
-    dropdown.classList.toggle('active');
+    dropdown.classList.toggle('active'); // Toggle 'active' class
 }
 
 window.onclick = function(event) {
@@ -80,8 +80,8 @@ window.onclick = function(event) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         for (var i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
-            if (openDropdown.style.display === "block") {
-                openDropdown.style.display = "none";
+            if (openDropdown.classList.contains('active')) { // Check for 'active' class
+                openDropdown.classList.remove('active'); // Remove 'active' class
             }
         }
     }
