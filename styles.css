@@ -52,21 +52,10 @@ body {
     display: block;
 }
 
-.dropdown-content:hover {
-    display: block;
-}
-
 .site-uri {
     margin-left: 20px;
 }
-	#myDropdown,
-#myDropdown1,
-#myDropdown2,
-#myDropdown3 {
-    left: auto;
-    right: 5%;
-    top: 100%;
-}
+
 @media only screen and (max-width: 768px) {
     .content {
         margin-top: 20px; 
