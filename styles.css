@@ -17,18 +17,18 @@ body {
 
 .content {
     text-align: center;
-    margin-top: 30px; /* Reducem margin-top pentru a îmbunătăți aspectul pe dispozitivele mobile */
+    margin-top: 30px;
 }
 
 .dropdown-btn {
     background-color: rgba(0, 0, 230, 0.5); 
     color: white;
-    padding: 12px 18px; /* Reducem dimensiunea butonului */
-    font-size: 14px; /* Reducem dimensiunea fontului */
+    padding: 12px 18px;
+    font-size: 14px; 
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-right: 10px; /* Reducem margin-right pentru a îmbunătăți aspectul pe dispozitivele mobile */
+    margin-right: 10px; 
 }
 
 .dropdown-content {
@@ -36,17 +36,17 @@ body {
     position: absolute;
     border-radius: 5px;
     background-color: rgba(0, 90, 255, 0.5);
-    min-width: 140px; /* Reducem latimea dropdown-ului */
+    min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     left: 50%; /* Aducem dropdown-ul la mijloc */
-    transform: translateX(-50%); /* Aducem dropdown-ul la mijloc */
+    transform: translateX(-50%);
     top: 100%;
 }
 
 .dropdown-content a {
     color: white;
-    padding: 10px 14px; /* Reducem dimensiunile link-urilor */
+    padding: 10px 14px; 
     text-decoration: none;
     display: block;
 }
@@ -68,20 +68,20 @@ body {
 }
 @media only screen and (max-width: 768px) {
     .content {
-        margin-top: 20px; /* Ajustează margin-top pentru ecranele mai mici */
+        margin-top: 20px; 
     }
 
     .dropdown-btn {
-        padding: 10px 16px; /* Ajustează dimensiunile butoanelor pentru ecranele mai mici */
-        font-size: 12px; /* Ajustează dimensiunea fontului pentru ecranele mai mici */
-        margin-right: 5px; /* Ajustează margin-right pentru ecranele mai mici */
+        padding: 10px 16px; 
+        font-size: 12px; 
+        margin-right: 5px; 
     }
 
     .dropdown-content {
-        min-width: 120px; /* Ajustează lățimea dropdown-ului pentru ecranele mai mici */
+        min-width: 120px; 
     }
 
     .dropdown-content a {
-        padding: 8px 12px; /* Ajustează dimensiunile link-urilor pentru ecranele mai mici */
+        padding: 8px 12px; 
     }
 }
