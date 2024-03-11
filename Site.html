@@ -68,22 +68,11 @@
 	
 	
 		
-<script>S
+<script>
 	
 function toggleDropdown(contentId) {
     var dropdown = document.getElementById(contentId);
-    var dropdownButton = document.querySelector('[onclick="toggleDropdown(\'' + contentId + '\')"]');
-    if (dropdown.style.display === "block") {
-        dropdown.style.display = "none";
-    } else {
-        var allDropdowns = document.getElementsByClassName("dropdown-content");
-        for (var i = 0; i < allDropdowns.length; i++) {
-            allDropdowns[i].style.display = "none";
-        }
-        dropdown.style.display = "block";
-        dropdown.style.top = (dropdownButton.offsetTop + dropdownButton.offsetHeight) + "px";
-        dropdown.style.left = dropdownButton.offsetLeft + "px";
-    }
+    dropdown.classList.toggle('active');
 }
 
 window.onclick = function(event) {
