@@ -84,4 +84,7 @@ body {
     .dropdown-content a {
         padding: 8px 12px; 
     }
+     .dropdown-content.active {
+    display: block;
+}
 }
