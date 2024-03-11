@@ -54,3 +54,21 @@ body {
 		.site-uri {
 			margin-left: 20px;
 		}
+.btn {
+    background-color: #4e8df5; /* albastru deschis pentru culoarea de fundal a butonului */
+    color: white; /* culoarea textului din buton */
+    padding: 15px 25px; /* spatierea intre margini si text */
+    border: none; /* eliminam bordura */
+    border-radius: 5px; /* rotunjim colturile */
+    cursor: pointer; /* cursor pointer */
+    font-size: 16px; /* dimensiunea fontului */
+    transition: background-color 0.3s ease; /* adaugam o tranzitie pentru culoarea de fundal */
+}
+
+.btn:hover {
+    background-color: #3b73c4; /* albastru inchis pentru culoarea de fundal a butonului la hover */
+}
+
+.btn:active {
+    background-color: #2b549e; /* albastru inchis mai intens pentru culoarea de fundal a butonului la click */
+}
