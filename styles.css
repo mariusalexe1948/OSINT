@@ -55,6 +55,13 @@ body {
 .site-uri {
     margin-left: 20px;
 }
+#myDropdown1,
+#myDropdown2,
+#myDropdown3 {
+    left: auto;
+    right: 0%;
+    top: 100%;
+}
 
 @media only screen and (max-width: 768px) {
     .content {
@@ -76,16 +83,4 @@ body {
     }
      
 }
-#myDropdown1,
-#myDropdown2,
-#myDropdown3 {
-    left: auto;
-    right: 5%;
-    top: 100%;
-}
 
-#myDropdown1.active,
-#myDropdown2.active,
-#myDropdown3.active {
-    display: block;
-}
