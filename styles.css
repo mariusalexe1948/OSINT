@@ -66,3 +66,22 @@ body {
     right: 5%;
     top: 100%;
 }
+@media only screen and (max-width: 768px) {
+    .content {
+        margin-top: 20px; /* Ajustează margin-top pentru ecranele mai mici */
+    }
+
+    .dropdown-btn {
+        padding: 10px 16px; /* Ajustează dimensiunile butoanelor pentru ecranele mai mici */
+        font-size: 12px; /* Ajustează dimensiunea fontului pentru ecranele mai mici */
+        margin-right: 5px; /* Ajustează margin-right pentru ecranele mai mici */
+    }
+
+    .dropdown-content {
+        min-width: 120px; /* Ajustează lățimea dropdown-ului pentru ecranele mai mici */
+    }
+
+    .dropdown-content a {
+        padding: 8px 12px; /* Ajustează dimensiunile link-urilor pentru ecranele mai mici */
+    }
+}
