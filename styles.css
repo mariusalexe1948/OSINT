@@ -48,12 +48,12 @@ body {
 .dropdown-content.active {
     display: block;
 }
-.dropdown-content a {
+/*.dropdown-content a {
     color: white;
     padding: 10px 14px; 
     text-decoration: none;
     display: block;
-}
+}*/
 
 .site-uri {
     margin-left: 20px;
