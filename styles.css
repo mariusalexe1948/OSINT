@@ -30,9 +30,9 @@ body {
     cursor: pointer;
     /*margin-right: 10px;*/ 
     flex: 1;
-    margin-bottom: 10px; /* schimbare aici */
-    display: block; /* adăugare */
-    width: 20px; 
+    margin-bottom: 10px; 
+    display: block;
+    width: auto; 
 }
 
 .dropdown-content {
