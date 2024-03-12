@@ -1,11 +1,11 @@
-tbody {
+body {
     background-image: url('https://raw.githubusercontent.com/mariusalexe1948/OSINT/main/1698648511705.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed; 
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 .header {
