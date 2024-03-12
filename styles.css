@@ -37,7 +37,7 @@ body {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    /*position: absolute;*/
     border-radius: 5px;
     background-color: rgb(0, 191, 255);
     width: 25%;
