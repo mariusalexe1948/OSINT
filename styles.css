@@ -55,6 +55,8 @@ body {
     padding: 10px 14px; 
     text-decoration: none;
     display: block;
+    margin-bottom: 1px; 
+    border-bottom: 1px solid white;
 }
 
 .site-uri {
