@@ -40,20 +40,20 @@ body {
     position: absolute;
     border-radius: 5px;
     background-color: #79F8F8;
-    min-width: 140px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    bottom: 100%;
+    top: 100%;
 }
 .dropdown-content.active {
     display: block;
 }
-/*.dropdown-content a {
+.dropdown-content a {
     color: white;
     padding: 10px 14px; 
     text-decoration: none;
     display: block;
-}*/
+}
 
 .site-uri {
     margin-left: 20px;
