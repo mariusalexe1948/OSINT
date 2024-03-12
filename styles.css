@@ -32,7 +32,7 @@ body {
     flex: 1;
     margin-bottom: 10px; /* schimbare aici */
     display: block; /* adăugare */
-    /* width: 100%; adăugare */
+    width: 200%; 
 }
 
 .dropdown-content {
