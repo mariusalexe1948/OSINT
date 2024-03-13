@@ -104,3 +104,22 @@ body {
      
 }
 
+#emailContainer {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white; /* setăm culoarea textului la alb */
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* culoare de fundal semi-transparentă */
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    color: white; /* setăm culoarea textului la alb */
+    font-size: 14px;
+}
