@@ -162,7 +162,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px 0px;
     position: absolute; 
-    bottom: 50%; 
+     
      left: 50%;	
     text-align: center;
 	 transform: translate(-50%, 50%);
