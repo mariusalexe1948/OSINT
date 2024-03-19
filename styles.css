@@ -193,6 +193,8 @@ footer p {
     .dropdown-content a {
         padding: 8px 12px; 
     }
-
+      .show_crypto {
+        width: 60%; 
+    }	
 }
 
