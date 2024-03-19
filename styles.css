@@ -208,5 +208,15 @@ footer p {
       .show_crypto {
         width: 60%; 
     }	
+footer {
+    position: relative;
+    bottom: unset; 
+    width: 100%; 
+    border-top: none; 
+	}
+
+footer p {
+    margin: 5px; 
+	}
 }
 
