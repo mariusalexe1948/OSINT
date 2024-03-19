@@ -113,8 +113,8 @@ body {
 	background-repeat: no-repeat;
         background-attachment: fixed; 
 	text-align: center; 
-	display: block;
-	
+	display: block; 
+	width: 20%; 
 }
 
 .show_crypto a {
@@ -122,6 +122,7 @@ body {
 		color: white;
 		padding: 10px 0px;
 		text-decoration: none;
+			 
 		}
 		
 a:hover, a:active, a:visited {
