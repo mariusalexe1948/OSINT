@@ -8,7 +8,7 @@ body {
     padding: 10px;
 }
 .alt-background {
-    background-image: url('ttps://raw.githubusercontent.com/mariusalexe1948/OSINT/main/index.jpg');
+    background-image: url('https://raw.githubusercontent.com/mariusalexe1948/OSINT/main/index.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
