@@ -171,7 +171,7 @@ footer {
     text-align: center; 
     padding: 10px 0;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 97%;
     border-top:1px solid rgba(255, 255, 255, 0.3);
   }
