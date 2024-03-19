@@ -188,12 +188,5 @@ footer p {
         padding: 8px 12px; 
     }
 
-    .btn-container {	
-	display: block; 
-        width: calc(100% - 20px); 
-     }
-.show_crypto{
-	display: block; 
-	}	
 }
 
