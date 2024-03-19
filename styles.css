@@ -160,12 +160,12 @@ a:hover, a:active, a:visited {
 footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); 
-    padding: 20px 0px;
-    position: absolute; 
+    padding: 20px;
+    position: fixed; 
     left: 50%;	
     text-align: center;
     width: 50%;
-    margin: 0 auto;
+    bottom:0;
   }
 
 footer p {
