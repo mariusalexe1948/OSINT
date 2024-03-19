@@ -47,7 +47,7 @@ body {
     z-index: 1;
     top: 100%;
     margin-top:-5px;
-	margin-left:110px;
+    margin-left:110px;
 }
 .dropdown-content.active {
     display: block;
@@ -101,6 +101,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    text-align: center; 
 }
 
 .show_crypto{
@@ -116,8 +117,10 @@ body {
 }
 
 .show_crypto a {
-			color: white;
-			padding: 12px 16px;
+		display: block;
+		color: white;
+		padding: 10px 0px;
+		text-decoration: none;
 		}
 		
 a:hover, a:active, a:visited {
