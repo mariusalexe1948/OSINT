@@ -108,8 +108,9 @@ body {
 	padding: 20px;
 	margin-top:20px;
 	background-repeat: no-repeat;
-    background-attachment: fixed; 
+        background-attachment: fixed; 
 	text-align: center; 
+	display: block;
 	
 }
 
