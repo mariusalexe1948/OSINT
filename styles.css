@@ -218,7 +218,7 @@ footer p {
     }	
 footer {
     position: fixed;
-    bottom: unset; 
+    bottom: 0; 
     width: 100%; 
     border-top: none; 
 	}
