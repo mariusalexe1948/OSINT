@@ -202,12 +202,15 @@ footer p {
         width: 20%; 
     }
 
-    .dropdown-content a {
-        padding: 8px 12px; 
-        width: 100%; 
-        margin: 0 auto; 
-        margin-top: 5px;
-    }
+ dropdown-content a {
+    color: white;
+    padding: 0; 
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1px; 
+    border-bottom: 1px solid white;
+    line-height: normal;
+}
       .show_crypto {
         width: 60%; 
 	       padding: 10px 16px; 
