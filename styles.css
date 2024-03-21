@@ -204,9 +204,14 @@ footer p {
 
     .dropdown-content a {
         padding: 8px 12px; 
+        width: 100%; 
+        margin: 0 auto; 
+        margin-top: 5px;
     }
       .show_crypto {
         width: 60%; 
+	       padding: 10px 16px; 
+        font-size: 14px;
     }	
 footer {
     position: relative;
